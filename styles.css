@@ -5,6 +5,34 @@ body{
     padding-right: 6%;
     padding-bottom: 6%;
 }
+hr{
+  color: rgb(12,115, 0);
+}
+p{
+  color: rgb(12, 115, 0);
+  font-family: sans-serif;
+}
+h1{
+  color: rgb(12, 115, 0);
+  font-family: sans-serif;
+  font-size: 35;
+}
+h2{
+  color: rgb(12, 115, 0);
+  font-family: sans-serif;
+  font-size: 25;
+}
+lottie-player{
+  float: right;
+}
+.welcome{
+  display: flexbox;
+  .welcome p{
+    font-size: 20;
+    align-self: self-start;
+    font-weight: bold;
+  }
+}
 .navbar{
     background-color:rgb(12, 43, 12);
     width: 100%;
@@ -31,9 +59,11 @@ body{
     color: white;
     font-weight: bold;
     font-family: sans-serif;
+    display: flex;
+    text-align: center;
   }
   .menu li {
     display: flex;
-    padding-left: 28%;
-    padding-right: 28%;
+    padding-left: 20%;
+    padding-right: 20%;
   }
