@@ -26,11 +26,12 @@ lottie-player{
   float: right;
 }
 .welcome{
-  display: flexbox;
+  display: flex;
   .welcome p{
     font-size: 20;
     align-self: self-start;
     font-weight: bold;
+    display: flex;
   }
 }
 .navbar{
@@ -40,13 +41,14 @@ lottie-player{
     border-radius: 10px;
     display: flex;
     align-items: center;
+    align-content: space-between;
     justify-content: space-around;
 }
 .menu {
     display: flex;
     gap: 1em;
     font-size: 18px;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   
   .menu li:hover {
