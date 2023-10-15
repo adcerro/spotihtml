@@ -5,9 +5,6 @@ body{
     padding-right: 6%;
     padding-bottom: 6%;
 }
-hr{
-  color: rgb(12,115, 0);
-}
 p{
   color: rgb(12, 115, 0);
   font-family: sans-serif;
@@ -25,14 +22,12 @@ h2{
 lottie-player{
   float: right;
 }
-.welcome{
+.line{
+  border: 1px solid rgb(12, 115, 0);
+  width: 100%;
+}
+.details{
   display: flex;
-  .welcome p{
-    font-size: 20;
-    align-self: self-start;
-    font-weight: bold;
-    display: flex;
-  }
 }
 .navbar{
     background-color:rgb(12, 43, 12);
@@ -44,28 +39,4 @@ lottie-player{
     align-content: space-between;
     justify-content: space-around;
 }
-.menu {
-    display: flex;
-    gap: 1em;
-    font-size: 18px;
-    justify-content: space-evenly;
-  }
   
-  .menu li:hover {
-    background-color:rgb(12, 115, 0);
-    border-radius: 5px;
-    transition: 0.3s ease;
-  }
-  .menu a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    text-align: center;
-  }
-  .menu li {
-    display: flex;
-    padding-left: 20%;
-    padding-right: 20%;
-  }
