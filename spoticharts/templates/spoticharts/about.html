@@ -1,0 +1,23 @@
+{% extends 'spoticharts/layout.html' %}
+{% block body %}
+{% load static %}
+<h1 id="centerHeader">Meet the ✨panes✨ team</h1>
+<h2 id="centerH2">Our team is conformed by three awesome people 💋</h2>
+<section id="members">
+<div class="member">
+    <img src="{% static 'spoticharts/alan.png' %}" alt="A drawing of Alan">
+    <h1>Alan Florez</h1>
+    <p>Crazy guy</p>
+</div>
+<div class="member">
+    <img src="{% static 'spoticharts/tabata.png' %}" alt="A drawing of Tabata">
+    <h1>Tabata Llach</h1>
+    <p>Back-End Developer</p>
+</div>
+<div class="member">
+    <img src="{% static 'spoticharts/katy.png' %}" alt="A drawing of Katy">
+    <h1>Katy Diaz</h1>
+    <p>Front-End Developer</p>
+</div>
+</section>
+{% endblock %}
