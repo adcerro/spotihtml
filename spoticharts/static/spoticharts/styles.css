@@ -64,8 +64,14 @@ h2{
 #members{
   display: grid;
   grid-gap: 10px;
-  align-items: center;
-  justify-items: center;
+  align-items: baseline;
+}
+@media screen and (min-width:650px){
+  #members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
 }
 lottie-player{
   justify-self: center;
@@ -84,13 +90,6 @@ lottie-player{
   }
   lottie-player{
     width: 200px;
-  }
-  #members{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    align-items: center;
-    justify-items: center;
   }
 }
 .navbar{
