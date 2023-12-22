@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Spoticharts</title>
+    <link rel="stylesheet" href="{% static 'spoticharts/styles.css'%}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/index.html">🏠Home</a>
+            <a href="/index.html">🔎Compare</a>
+            <a href="/index.html">📧About</a>
+        </nav>
+    </header>
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
