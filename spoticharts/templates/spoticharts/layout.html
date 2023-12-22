@@ -10,9 +10,9 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="/index.html">🏠Home</a>
-            <a href="/index.html">🔎Compare</a>
-            <a href="/index.html">📧About</a>
+            <a href="{% url 'spoticharts:index' %}">🏠Home</a>
+            <a href="{% url 'spoticharts:charts' %}">🔎Compare</a>
+            <a href="{% url 'spoticharts:about' %}">📧About</a>
         </nav>
     </header>
     {% block body %}
