@@ -20,7 +20,7 @@ h2{
   font-size: 25;
 }
 lottie-player{
-  float: right;
+  float: center;
 }
 .line{
   border: 1px solid rgb(12, 115, 0);
@@ -28,6 +28,7 @@ lottie-player{
 }
 .details{
   display: flex;
+  flex-wrap: wrap;
 }
 .navbar{
     background-color:rgb(12, 43, 12);
@@ -39,4 +40,4 @@ lottie-player{
     align-content: space-between;
     justify-content: space-around;
 }
-  
+

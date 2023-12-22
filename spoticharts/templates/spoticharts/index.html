@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Spoticharts</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{% static 'spoticharts/styles.css'%}">
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
             <a href="/index.html">📧About</a>
         </nav>
     </header>
-    <p style="font-weight: bold;font-size: larger;">Hi, this is Spoticharts 👋</p>
+    <h2>Hi, this is Spoticharts 👋</h2>
     <h1>Let's give a try to our page, we have many options to explore</h1>
     <div class="line"></div>
     <h2>What Spoticharts does</h2>
